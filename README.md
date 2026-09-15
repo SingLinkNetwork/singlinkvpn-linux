@@ -4,8 +4,9 @@ Official installation entry point for the SingLinkVPN Linux desktop client.
 
 ## Preview release
 
-ARM64 version 2.5.8 is published in the Snap Store's **edge** testing channel.
-AMD64 packaging and account-based VPN testing are in progress. There is no stable release yet.
+AMD64 (Intel/AMD) and ARM64 version 2.5.8 are published in the Snap Store's **edge** testing channel. Snap automatically selects the correct architecture.
+
+ARM64 was tested on Ubuntu 24.04 with strict confinement, including TUN traffic, HTTPS and network recovery. AMD64 passed build, helper tests and a GUI startup smoke test under emulation; native AMD64 VPN and real-account validation remain pending. There is no stable release yet.
 
 Download and run the installer (Bash):
 
